@@ -14,7 +14,6 @@ namespace Shop_Object
         {
             InitializeComponent();
 
-            // Add data to objects
             itemCoffee.name = "Coffee";
             itemCoffee.price = 75;
             itemCoffee.quantity = 0;
@@ -31,7 +30,6 @@ namespace Shop_Object
             itemPizza.price = 250;
             itemPizza.quantity = 0;
 
-            // Display data
             CoffeePrice.Text = itemCoffee.price.ToString();
             CoffeeQuantity.Text = itemCoffee.quantity.ToString();
 
@@ -44,7 +42,6 @@ namespace Shop_Object
             PizzaPrice.Text = itemPizza.price.ToString();
             PizzaQuantity.Text = itemPizza.quantity.ToString();
 
-            // Bind events
             Coffee.CheckedChanged += Coffee_CheckedChanged;
             GreenTea.CheckedChanged += GreenTea_CheckedChanged;
             Noodle.CheckedChanged += Noodle_CheckedChanged;
@@ -67,7 +64,6 @@ namespace Shop_Object
         {
             double total = 0;
 
-            // Calculate item totals
             if (itemCoffee.isCheck)
                 total += calculateItemTotal(itemCoffee, CoffeeQuantity.Text);
 
@@ -80,7 +76,6 @@ namespace Shop_Object
             if (itemPizza.isCheck)
                 total += calculateItemTotal(itemPizza, PizzaQuantity.Text);
 
-            // Apply discounts
             if (All.Checked)
             {
                 float discountRate = float.TryParse(textBox1.Text, out float rateAll) ? rateAll : 0;
@@ -127,7 +122,6 @@ namespace Shop_Object
                     double change = cashReceived - total;
                     tbChange.Text = change.ToString("F2");
 
-                    // Calculate change in denominations
                     int[] denominations = { 1000, 500, 100, 50, 20, 10, 5, 1 };
                     double remainingChange = change;
 
@@ -163,13 +157,11 @@ namespace Shop_Object
             }
         }
 
-        // Event handlers for checkboxes
         private void Coffee_CheckedChanged(object sender, EventArgs e) => itemCoffee.isCheck = Coffee.Checked;
         private void GreenTea_CheckedChanged(object sender, EventArgs e) => itemGreenTea.isCheck = GreenTea.Checked;
         private void Noodle_CheckedChanged(object sender, EventArgs e) => itemNoodle.isCheck = Noodle.Checked;
         private void Pizza_CheckedChanged(object sender, EventArgs e) => itemPizza.isCheck = Pizza.Checked;
 
-        // Event handlers for quantity textboxes
         private void CoffeeQuantity_TextChanged(object sender, EventArgs e) => itemCoffee.quantity = parseQuantity(CoffeeQuantity.Text);
         private void GreenTeaQuantity_TextChanged(object sender, EventArgs e) => itemGreenTea.quantity = parseQuantity(GreenTeaQuantity.Text);
         private void NoodleQuantity_TextChanged(object sender, EventArgs e) => itemNoodle.quantity = parseQuantity(NoodleQuantity.Text);
