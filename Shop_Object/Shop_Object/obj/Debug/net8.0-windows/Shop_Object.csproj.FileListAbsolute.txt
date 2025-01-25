@@ -1,0 +1,17 @@
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\bin\Debug\net8.0-windows\Shop_Object.exe
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\bin\Debug\net8.0-windows\Shop_Object.deps.json
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\bin\Debug\net8.0-windows\Shop_Object.runtimeconfig.json
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\bin\Debug\net8.0-windows\Shop_Object.dll
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\bin\Debug\net8.0-windows\Shop_Object.pdb
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.Form1.resources
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.csproj.GenerateResource.cache
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.AssemblyInfoInputs.cache
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.AssemblyInfo.cs
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.csproj.CoreCompileInputs.cache
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.sourcelink.json
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.dll
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\refint\Shop_Object.dll
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.pdb
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\Shop_Object.genruntimeconfig.cache
+C:\OOP\ShoppingCart with Object\ShoppingCart-with-Object\Shop_Object\Shop_Object\obj\Debug\net8.0-windows\ref\Shop_Object.dll
